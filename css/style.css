@@ -1,0 +1,701 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* ヘッダー */
+
+.header {
+  padding-top: 48px;
+  height: 100vh;
+  min-height: 660px;
+  position: relative;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_header_pink-4704d42ed44908fb061e80afc515a93ab2fcbfd605c2580de486a4d980b2115a.jpg) ;
+  text-align: center;
+}
+
+/* ロゴ */
+.logo {
+  margin: 15vh auto 16px;
+  width: 131px;
+  height: 116px;
+  background-size: cover;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_logo-0dbc9cb7c037472d3bf71fde0c1d3efd708c2c2547e9ed3e420051ca826cdad8.png);
+}
+
+/* ロゴ下文章 */
+.tagline {
+  margin: 24px 0;
+  font-size: 20px;
+}
+
+.content {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+}
+
+/* ストアへリンクするダウンロードボタン */
+
+.download {
+  padding: 24px 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.dl-btn {
+  width: 164px;
+  height: 49px;
+  background-size: cover;
+}
+
+.appstore {
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/Badge_Appstore-9f3fcecf66049829e600e6a1299fa1671b7c66c829f4a2a34ffd43ce946a71d7.png);
+  margin-right: 16px;
+}
+.googleplay {
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/Badge_Googleplaystore-8a4acc6f065bfdaafb2029998f0a464d0ac4571b2b89210218c71e1ae4c8078a.png);
+}
+
+/* ダウンロード下文章 */
+.footnote p {
+  font-size: 13px;
+}
+
+
+/* サービス内容 */
+.container-service {
+  display: flex;
+  min-height: 540px;
+}
+
+.item {
+  flex: 1;
+  padding: 8vmin 6vmin;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+/* 各サービス内容 */
+.item1 {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service01-01ee576583ddad054106d9f2dc78caf78be6c829383351a4fbc99ac5a566020a.jpg);
+}
+.item2 {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service02-cd59d8cd17b05503a9fc3eeae42d618d0cc19b2277b581f5db275d5dde09e94d.jpg);
+}
+.item3 {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service03-4c44f872ed6f7ed3007faeb109b1e03ceabcdb3106ba54392a5457a159a0f2ab.jpg);
+}
+
+.service-title {
+  font-size: 24px;
+  letter-spacing: 0.05rem;
+  padding: 0 0 10px;
+  margin: 0;
+}
+
+.service-content {
+  font-size: 15px;
+}
+
+/* 値段について */
+
+.price-container{
+  color: #3f434A;
+  display: flex;
+
+}
+
+.price-container h2 {
+  margin: 0 0 12px;
+}
+
+/* 左側 */
+.price {
+  background: #f5f5f5;
+  text-align: center;
+  flex: 1;
+  padding: 64px 24px;
+}
+
+.wrap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.price-content {
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+}
+
+/* ブーケ画像 */
+.bouquet {
+  flex-basis: 200px;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/price_bouquetimg-9d58e59120ae586337c3b91a2f531ad14e7b05dc3d3ec63ab0ee68b41c8852fb.png);
+  background-size: 200px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+/* 初回無料画像 */
+.free-trial {
+  height: 46px;
+  width: 125px;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/price_freetrial-f9eff918f8de1901e1e25d84228cb3ab5eb126f5c2469cfc03ea46b507f29e49.png);
+  background-size: cover;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -24px;
+  }
+
+.bouquet-price {
+  flex: none;
+  margin: 16px auto;
+}
+
+.bouquet-price p {
+  font-size: 15px;
+}
+
+
+.lerge span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price p {
+  margin: 0;
+}
+
+/* 右側 */
+.frequency {
+  flex: 1;
+  margin: auto 0;
+}
+
+.flower-frequency {
+  max-width: 400px;
+  margin: 0 auto;    
+  text-align: center;
+}
+
+.img {
+  height: 156px;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/img_frequency-e1cc7b2fcecb9a18105144861c456538abb21a5049fe1d320846cb61e42d1fdd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 24px;
+}
+
+/* どんな花が届くの？ */
+.flower-container {
+  background: #ead5dc;
+  color: #3f434A;
+  display: flex;
+  padding:20px 0 ;
+}
+
+.flower-img {
+  flex: 1;
+  height: 500px;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flower-type {
+  min-height: 500px;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flower-title h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.flower-item {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.flower-item h3 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin: 24px 0 10px;
+}
+
+.flower-item p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* 花瓶について */
+.vase {
+  color: #3f434A;
+  /* height: 100vh; */
+  min-height:730px;
+  background: #e7e3df;
+  padding-top: 10vmin;
+}
+
+.vase-container {
+  display: flex;
+  text-align: center;
+}
+
+/* 花瓶について　左側 */
+.vase-left {
+  flex: 1;
+  margin: 0 auto ;
+}
+
+.vase-title {
+  font-size: 26px;
+  line-height: 1.6;
+  letter-spacing: 0.05rem;
+  margin-bottom: 10px;
+}
+.vase-firstSale {
+  margin:20px 0;
+}
+
+.vase-firstSale p {
+  margin: 0 auto;
+  background: #fff;
+  width: fit-content;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+.vase-body {
+  /* width: 400px; */
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.vase-body p {
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0.05rem;
+}
+
+.vase-variation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vase-price {
+  display: flex;
+  align-items: baseline;
+}
+
+.first-entry {
+  flex: 1;
+}
+
+.vase-content {
+  flex: 2;
+  text-align: left;
+}
+
+/* 花瓶の写真 */
+.vase-style {
+  height: 116px;
+  width: 98px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.bell {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/vase_bell-3242683261f661614798b85f339c955bd9a56d231773730ffd7a0ab8028747e2.jpg);
+}
+
+.vase-style p {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+}
+
+.moon {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/vase_moon-6ef8eca3a0e8166d7a28acda51109e2050ee74ed94a839638ac1f954223647fb.jpg);
+}
+
+.candle {
+  background-image:  url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/vase_candle-ca20f4ad96c7cbfe245a497dc9aa0875a4bcc5c8a14056e8297096bb720d4bdd.jpg) ;
+}
+
+/* 値段について */
+
+.first-entry {
+  width: 100px;
+  border: 2px solid;
+  margin: 20px 14px 20px 0;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.first-entry p {
+  margin:0;
+  text-align: center;
+}
+
+.discount-price {
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+
+.normal-price {
+  font-size: 14px;
+}
+
+.vase-footnote {
+  text-align: left;
+}
+
+
+
+/* 花瓶について　右側 */
+.vase-right {
+  flex: 1;
+}
+
+.vase-right {
+  height: 730px;
+  margin: 0 auto;
+  width: 100%;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* サービス２ */
+.service2 {
+  color: #3f434A;
+  text-align: center;
+  padding: 12vmin 4vmin 16vmin;
+}
+
+/* サービス２タイトル */
+.service2-title h2 {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+
+/* サービスコンテンツ */
+.service2-content {
+  display: flex;
+}
+
+/* 各コンテンツ画像 */
+
+.service2-item {
+  flex: 1;
+  width: 80px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 80px;
+  padding-top: 80px;
+  margin-top: 24px;
+}
+
+.service2-item h3 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.service2-item p {
+  font-size: 15px;
+  margin: 14px 0;
+}
+
+.easy {
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/icon01-a28ec01862252e91844e967c292c48f010ba5745676732f440604d719fb55337.png) ;
+}
+
+.notice {
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/icon02-6a6d3d2a031a144e73704a6503c1ca38ca27285aa7462f9d93b914dea4228c8c.png) ;
+}
+
+.warranty {
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/icon03-25ad908ec8524d66e532f232a4dee07d6e0fe1535e366871cba3bede0dd3e334.png) ;
+}
+
+/* ダウンロード２ */
+.download2 {
+  background: #efdfc5;
+  color: #3f434A;
+  height: 420px;
+  padding: 0 4vmin;
+}
+
+.download2-container {
+  display: flex;
+}
+/* 背景画像 */
+.download2-img {
+  height: 420px;
+  flex: 4;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_download2-afd5325a6ad7ae095cd1aad7172be40a68704bad0eaae90dbff5e274759345ad.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* ロゴ */
+.download2-logo {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/logo_vertical_navy-a362e5ea10920c0f986d06be36f717a75260d77bfaa4543c4dad42c188d87568.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 118px;
+  height: 145px;
+  padding-top: 80px;
+  margin-top: 60px;
+  text-align: center;
+  width: 50%;
+
+  /* 絶対配置 */
+  position: absolute;
+  left: 40%;
+}
+
+.download2-logo h3 {
+  font-weight: normal;
+}
+
+.download2-back {
+  flex: 1;
+}
+
+/* フッター */
+.footer {
+  background: #3f434A;
+  min-height: 164px;
+  padding: 8vmin 0 20vmin;
+}
+
+/* インスタの画像 */
+.instagram {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/icon_instagram-6c2d12f7a83c502d4e70a7df909d1124e0b21acab3b6793411c6453aa3172f5f.png);
+  width: 64px;
+  height: 64px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* 配置 */
+  position: absolute;
+  right: 2%;
+  top: auto;
+}
+
+.footer-container {
+width: 85%;
+display: flex;
+justify-content: space-around;
+margin-bottom: 30vmin;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* コピーライト */
+.copy-right {
+  text-align: center;
+  opacity: 0.4;
+  font-size: 0.8rem;
+}
+
+/* download-sp */
+
+.download-sp {
+  height: 50px;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  padding: 24px 0;
+  display: none;
+
+}
+
+.download-sp .container {
+  opacity: 1;
+  margin: 0 auto;
+}
+
+@media (max-width: 967px) {
+  .flower-item {
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  /* サービス */
+  .container-service {
+    display: block;
+  }
+
+  .item {
+    /* height: 730px; */
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+
+
+/* どんなお花が届くの？ */
+.flower-container {
+  display: block;
+
+}
+
+.flower-type {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.flower-img {
+  height: 300px;
+}
+
+/* 花瓶について */
+.vase-container {
+  display: block;
+  flex-direction: column-reverse;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.vase-right {
+  background-size: contain;
+  height: 500px;
+}
+
+/* footer */
+.footer {
+  padding: 8vmin 8vmin 20vmin;;
+}
+
+.footer-container {
+  display: block;
+}
+
+.download-sp {
+  display: block;
+}
+
+.footer-item {
+  padding: 5px;
+  font-size: 10px;
+}
+
+
+
+  .header .container {
+    display: none;
+  }
+}
+
+/* スマホ用レスポンシブ */
+@media(max-width: 480px) {
+/* 値段について */
+.price-container {
+  display: block;
+}
+
+.flower-frequency{
+  padding: 16vmin 0 20vmin;
+}
+
+/* どんなお花が届くの？ */
+.flower-type {
+  width: 100%;
+}
+
+/* 花瓶について */
+.vase-container {
+  width: 100%;
+}
+
+.vase-left{
+  width: 90%;
+}
+
+.vase-right {
+  width: 100%;
+}
+
+.vase-title {
+  font-size: 22px;
+}
+
+/* サービス２ */
+.service2-content {
+  display: block;
+}
+
+.service2-item {
+  width: 100%;
+}
+
+/* download2 */
+.download2-container {
+  display: block;
+}
+
+.download2-img {
+  background-position: bottom;
+  padding-top: 10px;
+}
+
+.download2-logo {
+  position: static;
+  width: 100%;
+}
+
+/* footer */
+.footer-item {
+  font-size: 14px;
+}
+
+.footer-container {
+  margin-bottom: 48px;
+}
+
+.copy-right {
+  padding-bottom: 50px;
+}
+
+}
